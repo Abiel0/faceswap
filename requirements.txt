@@ -6,3 +6,4 @@ gradio==5.5.0
 python-dotenv
 Pillow
 numpy
+flask-cors
