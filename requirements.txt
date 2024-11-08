@@ -1,0 +1,8 @@
+Flask
+gradio-client
+Werkzeug
+requests
+gradio==5.5.0
+python-dotenv
+Pillow
+numpy

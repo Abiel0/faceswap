@@ -53,4 +53,4 @@ def get_result():
     return send_file('generated_image.webp', mimetype='image/webp')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
